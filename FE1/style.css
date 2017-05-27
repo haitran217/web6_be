@@ -1,0 +1,54 @@
+html {
+  font-family: "Tahoma","Arial",sans-serif;
+}
+
+h1,
+a {
+  color: green;
+}
+p {
+  background: red;
+}
+
+p:hover{
+  background: yellow;
+}
+#first {
+  text-decoration : underline;
+}
+.italic {
+  font-style: italic;
+}
+.gray_bg {
+  background: gray;
+}
+[href]{
+  font-size: 60px;
+}
+[type = "password"]{
+  box-shadow: 0 0 3px rgba(0,0,0,0.6);
+}
+
+nav a {
+  text-decoration: line-through;
+}
+
+nav>a{
+  font-weight: bold;
+}
+img:hover{
+  box-shadow: 0 7px 15px rgba(0,0,0,0.6);
+}
+a:active{
+  color: #ff0000;
+}
+
+input:focus{
+  border : 1px dashed red;
+}
+.italic{
+  background-image : url('http://cdn.akamai.steamstatic.com/steam/apps/570/header.jpg?t=1494984004');
+}
+.rect{
+  background: red;
+}
